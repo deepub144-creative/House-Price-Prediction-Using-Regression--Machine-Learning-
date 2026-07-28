@@ -1,5 +1,6 @@
 import os
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+EXCHANGE_RATE = 83.0
 import streamlit as st
 import pandas as pd
 import numpy as np
