@@ -8,7 +8,16 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import os
 import streamlit.components.v1 as components
+import streamlit as st
 
+st.set_page_config(
+    page_title="California House Price Prediction",
+    layout="wide"
+)
+
+st.markdown("""
+    <meta name="viewport" content="width=1280">
+""", unsafe_allow_html=True)
 # --- Page Config ---
 st.set_page_config(
     page_title="House Price Predictor",
