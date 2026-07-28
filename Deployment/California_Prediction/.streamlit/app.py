@@ -365,21 +365,17 @@ def diwali_blast():
 # --- Constants & Initialization ---
 @st.cache_resource
 def load_model():
-    if os.path.exists('model.pkl'):
-        return joblib.load('model.pkl')
+    model_path = os.path.join(SCRIPT_DIR, 'model.pkl')
+    if os.path.exists(model_path):
+        return joblib.load(model_path)
     return None
 
 @st.cache_data
 def load_data():
-    if os.path.exists('dataset_cache.pkl'):
-        return joblib.load('dataset_cache.pkl')
-    path = r"C:\\Users\\deepu\\OneDrive\\Desktop\\Team Tech Titans\\Project Work Flow\\Data Acquisition\\Kaggle Dataset\\California Housing Prices\\Dataset\\housing.csv"
-    if os.path.exists(path):
-        return pd.read_csv(path)
+    cache_path = os.path.join(SCRIPT_DIR, 'dataset_cache.pkl')
+    if os.path.exists(cache_path):
+        return joblib.load(cache_path)
     return None
-
-model = load_model()
-df = load_data()
 
 # --- SIDEBAR NAV ---
 st.sidebar.image(os.path.join(SCRIPT_DIR, "custom_user_logo.jpg"), use_container_width=True)
