@@ -6,8 +6,10 @@ import numpy as np
 import joblib
 import matplotlib.pyplot as plt
 import seaborn as sns
-import os
-import streamlit.components.v1 as components
+
+
+# USD to INR exchange rate
+EXCHANGE_RATE = 83.0
 
 # --- Page Config ---
 st.set_page_config(
@@ -16,7 +18,6 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded"
 )
-
 # ============================================================
 # ⚡  TEAM TECH TITANS — ZERO-G CINEMATIC LOADING SCREEN
 # ============================================================
