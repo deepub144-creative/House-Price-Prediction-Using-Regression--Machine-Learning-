@@ -79,22 +79,14 @@ This project was built as a 4th semester academic project for the BCA (Data Scie
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 
 
-
 👥 Team Tech Titans
 
-
-
-| Role        | Name |
-
-|---|----------      |
-
+| Role | Name |
+|---|---|
 | Team Leader | Deepu B |
-
-| Member      | Bhaskar N S |
-
-| Member      | Thrupthi K S |
-
-| Member      | Sandhya T M |
+| Member | Bhaskar N S |
+| Member | Thrupthi K S |
+| Member | Sandhya T M |
 
 
 
