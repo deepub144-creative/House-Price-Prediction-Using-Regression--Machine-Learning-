@@ -377,6 +377,9 @@ def load_data():
         return joblib.load(cache_path)
     return None
 
+model = load_model()
+df = load_data()
+
 # --- SIDEBAR NAV ---
 st.sidebar.image(os.path.join(SCRIPT_DIR, "custom_user_logo.jpg"), use_container_width=True)
 st.sidebar.markdown("---")
