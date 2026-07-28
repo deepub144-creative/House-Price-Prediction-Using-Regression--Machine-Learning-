@@ -1,0 +1,16 @@
+*.mp4
+*.mov
+*Recordings*
+*Screenrecordings*
+*.exe
+*.png
+*.jpg
+*Snapshots*
+*Screenshot*
+*.pkl
+*.exe
+*.png
+*.mp4
+*Recordings*
+*Snapshots*
+\!Deployment/California_Prediction/.streamlit/model.pkl
