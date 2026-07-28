@@ -4,11 +4,11 @@
 
 
 
-An end-to-end Machine Learning project that predicts California housing prices using a \*\*Random Forest Regressor\*\*, deployed as an interactive web app with Streamlit.
+An end-to-end Machine Learning project that predicts California housing prices using a **Random Forest Regressor**, deployed as an interactive web app with Streamlit.
 
 
 
-🔗 Live App:\[deepub-tech-titans-house-price.streamlit.app](https://deepub-tech-titans-house-price.streamlit.app)
+🔗 Live App:[deepub-tech-titans-house-price.streamlit.app](https://deepub-tech-titans-house-price.streamlit.app)
 
 
 
@@ -18,17 +18,17 @@ An end-to-end Machine Learning project that predicts California housing prices u
 
 
 
-This project was built as a 4th semester academic project for the BCA (Data Science) program at \*\*Kalpataru First Grade Science College, Tiptur\*\*. It covers the complete machine learning lifecycle — from data acquisition to a fully deployed prediction system.
+This project was built as a 4th semester academic project for the BCA (Data Science) program at **Kalpataru First Grade Science College, Tiptur**. It covers the complete machine learning lifecycle — from data acquisition to a fully deployed prediction system.
 
 
 
-\- Dataset:California Housing Prices (Kaggle)
+- Dataset:California Housing Prices (Kaggle)
 
-\- Algorithm:Random Forest Regressor
+- Algorithm:Random Forest Regressor
 
-\- Pipeline:Null-value imputation, feature scaling (StandardScaler), categorical encoding (OneHotEncoding)
+- Pipeline:Null-value imputation, feature scaling (StandardScaler), categorical encoding (OneHotEncoding)
 
-\- Deployment:Streamlit Community Cloud
+- Deployment:Streamlit Community Cloud
 
 
 
@@ -36,15 +36,15 @@ This project was built as a 4th semester academic project for the BCA (Data Scie
 
 
 
-\- 📊 Interactive dashboard with dataset visualizations
+- 📊 Interactive dashboard with dataset visualizations
 
-\- ⚡ Real-time house price prediction based on user inputs
+- ⚡ Real-time house price prediction based on user inputs
 
-\- 📈 Statistical summary and raw data browser
+- 📈 Statistical summary and raw data browser
 
-\- 📥 Downloadable prediction reports (CSV)
+- 📥 Downloadable prediction reports (CSV)
 
-\- 🤖 Model specification details
+- 🤖 Model specification details
 
 
 
@@ -92,13 +92,13 @@ This project was built as a 4th semester academic project for the BCA (Data Scie
 
 
 
-Academic Guidance:
+Academic Guidance
 
-\- Subject Teacher: Ravikiran S J, MCA, SOC Analyst
-
-\- Technical Advisor: Omkar K P, MCA, Python Developer
-
-Backend Website Advisor : ManojKumar P , MCA , Data Engineer(IBM),( Mobile App Developer )
+| Role | Name | Details |
+|---|---|---|
+| Subject Teacher | Ravikiran S J | MCA, SOC Analyst |
+| Technical Advisor | Omkar K P | MCA, Python Developer |
+| Backend & Website Advisor | ManojKumar P | MCA, Data Engineer (IBM), Mobile App Developer |
 
 
 
