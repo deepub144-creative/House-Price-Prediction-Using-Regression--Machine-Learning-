@@ -13,4 +13,4 @@
 *.mp4
 *Recordings*
 *Snapshots*
-\!Deployment/California_Prediction/.streamlit/model.pkl
+!Deployment/California_Prediction/.streamlit/model.pkl
