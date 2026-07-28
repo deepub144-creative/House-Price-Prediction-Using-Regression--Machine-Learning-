@@ -1,3 +1,5 @@
+import os
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -361,8 +363,6 @@ def diwali_blast():
     components.html(fireworks_code, height=0)
 
 # --- Constants & Initialization ---
-EXCHANGE_RATE = 83.0 # USD to INR
-
 @st.cache_resource
 def load_model():
     if os.path.exists('model.pkl'):
@@ -382,7 +382,7 @@ model = load_model()
 df = load_data()
 
 # --- SIDEBAR NAV ---
-st.sidebar.image("custom_user_logo.jpg", use_container_width=True)
+st.sidebar.image(os.path.join(SCRIPT_DIR, "custom_user_logo.jpg"), use_container_width=True)
 st.sidebar.markdown("---")
 
 menu = {
