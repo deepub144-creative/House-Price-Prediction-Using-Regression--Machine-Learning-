@@ -6,25 +6,8 @@ import numpy as np
 import joblib
 import matplotlib.pyplot as plt
 import seaborn as sns
-
-
-
-# USD to INR exchange rate
-EXCHANGE_RATE = 83.0
-
 import os
 import streamlit.components.v1 as components
-import streamlit as st
->>>>>>> c3afdb20661f825d0390111d994b43439147c0bf
-
-st.set_page_config(
-    page_title="California House Price Prediction",
-    layout="wide"
-)
-
-st.markdown("""
-    <meta name="viewport" content="width=1280">
-""", unsafe_allow_html=True)
 
 # --- Page Config ---
 st.set_page_config(
